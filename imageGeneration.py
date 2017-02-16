@@ -9,3 +9,5 @@ for i in range(50):
 Z = scipy.ndimage.filters.sobel(Z)
 imshow(Z, cmap=get_cmap("Spectral"), interpolation='nearest')
 show()
+
+#comment
